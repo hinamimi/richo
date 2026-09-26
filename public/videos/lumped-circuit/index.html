@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="信号が伝わる時間から、いつもの回路図を使える条件へ。集中定数回路の考え方を、6つの場面で振り返ります。">
+  <title>同じ導線なのに、電位が違う？ 集中定数回路 | 理工の補講</title>
+  <meta name="theme-color" content="#080d14">
+    <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon/icon-16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon/icon-32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="../../assets/favicon/icon-48.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicon/icon-180.png">
+    <link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+  <header class="site-header wrap"><a class="brand" href="../../"><img src="../../assets/branding/icon.png" width="48" height="48" alt=""><span>理工の補講<small>電気回路と数学の学習ノート</small></span></a><nav aria-label="メインナビゲーション"><a href="../../#videos">動画一覧</a><a href="#summary">画像で振り返る</a><a class="channel-nav" href="https://www.youtube.com/@hinamimi09">YouTube <span aria-hidden="true">↗</span></a></nav></header>
+  <main id="main" class="wrap video-article">
+    <p class="breadcrumb"><a href="../../#videos">動画一覧</a> / 集中定数回路</p>
+    <header class="article-heading"><p class="eyebrow">VIDEO 02 / 集中定数回路</p><h1>同じ導線なのに、電位が違う？</h1><p class="lead">信号が伝わる時間から、いつもの回路図を使える条件へ。集中定数回路の考え方を、6つの場面で振り返ります。</p></header>
+    <section class="watch-section" aria-labelledby="watch-title">
+      <div class="video-block"><h2 id="watch-title">動画で見る</h2>
+        <!-- youtube-embed:start -->
+        <iframe class="video-frame" width="360" height="640"
+          src="https://www.youtube-nocookie.com/embed/9BAfsqTt8M8"
+          title="同じ導線なのに、電位が違う？ 集中定数回路 | 理工の補講" loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p class="video-external"><a href="https://www.youtube.com/watch?v=9BAfsqTt8M8">YouTubeで見る ↗</a></p>
+        <!-- youtube-embed:end -->
+      </div>
+      <aside class="takeaway" aria-labelledby="takeaway-title"><p class="eyebrow">この動画のポイント</p><h2 id="takeaway-title">集中定数回路は、配線内の伝搬遅延を無視できる範囲で、部品に働きをまとめた近似モデルです。</h2><p class="conditions">反射・損失を省いた正弦波の伝搬を考えます。伝搬速度20万km/sは説明用の例で、すべての配線に共通する値ではありません。</p></aside>
+    </section>
+    <section id="summary" class="section" aria-labelledby="summary-title"><h2 id="summary-title">画像で、ざっくり振り返る</h2><p class="section-intro">動画の順番に沿って、ポイントをまとめました。</p><nav class="story-toc" aria-label="動画の流れ"><ol><li><a href="#step-1">同じ導線でも、電位がずれる？</a></li><li><a href="#step-2">AからBへ届くまでに時間がかかる</a></li><li><a href="#step-3">伝搬時間を、波の1周期と比べる</a></li><li><a href="#step-4">時間の条件を、長さの条件へ</a></li><li><a href="#step-5">50Hzでは、波長はどのくらい？</a></li><li><a href="#step-6">いつもの回路図は、近似モデル</a></li></ol></nav><ol class="story">        <li class="story-step" id="step-1">
+          <div class="step-copy"><p class="eyebrow">STEP 01</p><h3>同じ導線でも、電位がずれる？</h3><p>回路図では、同じ導線上の2点を同じ電位として扱います。しかし周波数が高くなり、信号が届くまでの時間を無視できなくなると、その扱いが成り立たなくなります。</p></div>
+          <figure><a href="./images/01.webp" aria-label="場面1の画像を拡大：同じ導線でも、電位がずれる？"><img src="./images/01.webp" width="540" height="750" loading="lazy" decoding="async" alt="同じ回路の導線上のAとBで、周波数を上げると電位が異なる図"></a><figcaption>場面 1 · 画像を選ぶと拡大</figcaption></figure>
+        </li>
+        <li class="story-step" id="step-2">
+          <div class="step-copy"><p class="eyebrow">STEP 02</p><h3>AからBへ届くまでに時間がかかる</h3><p>配線の長さをℓ、伝搬速度をvとすると、伝搬時間はτ = ℓ/v。Bの波形は、Aの波形からτだけ遅れて現れます。</p></div>
+          <figure><a href="./images/02.webp" aria-label="場面2の画像を拡大：AからBへ届くまでに時間がかかる"><img src="./images/02.webp" width="540" height="750" loading="lazy" decoding="async" alt="AとBの回路上の位置、上下に並んだ電位の時間波形と、山の到着時間の差τ"></a><figcaption>場面 2 · 画像を選ぶと拡大</figcaption></figure>
+        </li>
+        <li class="story-step" id="step-3">
+          <div class="step-copy"><p class="eyebrow">STEP 03</p><h3>伝搬時間を、波の1周期と比べる</h3><p>2つの波形を重ねると、同じ時刻でも電位が違うことが分かります。伝搬時間τが周期Tより十分短ければ、この遅れによる電位差は小さくなります。</p></div>
+          <figure><a href="./images/03.webp" aria-label="場面3の画像を拡大：伝搬時間を、波の1周期と比べる"><img src="./images/03.webp" width="540" height="750" loading="lazy" decoding="async" alt="AとBの波形を重ね、伝搬時間τと1周期Tを比較し、τ ≪ Tを示す図"></a><figcaption>場面 3 · 画像を選ぶと拡大</figcaption></figure>
+        </li>
+        <li class="story-step" id="step-4">
+          <div class="step-copy"><p class="eyebrow">STEP 04</p><h3>時間の条件を、長さの条件へ</h3><p>1周期で進む距離が波長λです。τ = ℓ/vを使うと、τ ≪ Tはℓ ≪ λに読み替えられます。配線が波長より十分短いことが、近似の目安になります。</p></div>
+          <figure><a href="./images/04.webp" aria-label="場面4の画像を拡大：時間の条件を、長さの条件へ"><img src="./images/04.webp" width="540" height="750" loading="lazy" decoding="async" alt="伝搬距離と波長の図、およびτ ≪ Tからℓ ≪ λへ変形する途中式"></a><figcaption>場面 4 · 画像を選ぶと拡大</figcaption></figure>
+        </li>
+        <li class="story-step" id="step-5">
+          <div class="step-copy"><p class="eyebrow">STEP 05</p><h3>50Hzでは、波長はどのくらい？</h3><p>伝搬速度を20万km/sとする例では、50Hzの波長は約4,000km。身近な短い配線では波長に比べて長さが十分小さく、伝搬の遅れを無視できます。</p></div>
+          <figure><a href="./images/05.webp" aria-label="場面5の画像を拡大：50Hzでは、波長はどのくらい？"><img src="./images/05.webp" width="540" height="750" loading="lazy" decoding="async" alt="速度20万km/sを50Hzで割り、波長4,000kmを求める式と短い配線"></a><figcaption>場面 5 · 画像を選ぶと拡大</figcaption></figure>
+        </li>
+        <li class="story-step" id="step-6">
+          <div class="step-copy"><p class="eyebrow">STEP 06</p><h3>いつもの回路図は、近似モデル</h3><p>配線内の伝搬遅延を無視し、抵抗・コイル・コンデンサなどの部品に働きをまとめる。これが集中定数回路です。回路全体の時間変化や、部品による位相差をなくすわけではありません。</p></div>
+          <figure><a href="./images/06.webp" aria-label="場面6の画像を拡大：いつもの回路図は、近似モデル"><img src="./images/06.webp" width="540" height="750" loading="lazy" decoding="async" alt="ℓ ≪ λの条件のもとで配線内の伝搬遅延を無視し、集中定数回路として扱う図"></a><figcaption>場面 6 · 画像を選ぶと拡大</figcaption></figure>
+        </li>
+      </ol></section>
+    <aside class="related section"><p class="eyebrow">あわせて読む</p><a href="../complex-impedance/">なぜ、電気回路に虚数？ — 複素インピーダンスの正体 →</a></aside>
+  </main>
+  <footer class="wrap site-footer"><a href="../../#videos">← 動画一覧へ</a><div><a href="https://www.youtube.com/@hinamimi09">YouTube ↗</a><a href="#main">ページの先頭へ ↑</a></div></footer>
+</body>
+</html>
